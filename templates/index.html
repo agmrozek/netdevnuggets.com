@@ -3,15 +3,27 @@
     <head>
         <meta charset="utf-8">
         <meta name="description" content="IT insight and resources">
+        <meta http-equiv="cache-control" content="no-cache" />
         <title>My IT notes</title>
         <link rel="stylesheet" type="text/css" href="/static/style.css">
     </head>
     <body>
         <div class="wrapper">
              <div class="header">
-                  <img src="images/avatar-me-venus.jpeg" alt="missingimage.png">
-                  <h1> Welcome to the Future home of Netdevnuggets.com --->  {{request.remote_addr}}</h1>
+                  <img src="/static/avatar-me-venus.jpeg" alt="missingimage.png">
+                  <h4> Netdevnuggets.com --->  {{request.remote_addr}}</h4>
              </div>
+             <div class="mainnav">
+                    <a href="#">Home</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Shortcodes</a>
+                    <a href="#">Features</a>
+                    <a href="#">Contact</a>
+            </div>
+            <div class="midbody">
+        
+            </div>
         </div>
     </body>
 </html>
